@@ -8,3 +8,12 @@ There are also 3D files that you can print.
 
 Credits to : Electronoobs
 video :  https://www.youtube.com/watch?v=JFTJ2SS4xyA
+
+### PID Parameters
+You can change this parameters to your desired value depending on your prototype. 
+```
+float kp=12; //Mine was 8
+float ki=0.2; //Mine was 0.2
+float kd=3100; //Mine was 3100
+float distance_setpoint = 25; 
+```
